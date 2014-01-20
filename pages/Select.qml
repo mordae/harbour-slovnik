@@ -9,6 +9,7 @@ Page {
     Column {
         id: column
         width: parent.width
+        spacing: 10
 
         PageHeader {
             title: 'slovnik.cz'
@@ -180,11 +181,6 @@ Page {
             }
         }
 
-        Item {
-            width: parent.width
-            height: 48
-        }
-
         ListModel {
             id: resultsModel
         }
@@ -231,7 +227,7 @@ Page {
         SilicaListView {
             id: resultsView
             width: parent.width
-            height: 620
+            height: 600
             model: resultsModel
             delegate: resultsDelegate
 
