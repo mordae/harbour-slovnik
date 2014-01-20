@@ -205,9 +205,7 @@ Page {
                     width: parent.width
                     text: from
 
-                    Text {
-                        color: Theme.secondaryColor
-                    }
+                    color: Theme.secondaryColor
 
                     anchors {
                         top: parent.top
